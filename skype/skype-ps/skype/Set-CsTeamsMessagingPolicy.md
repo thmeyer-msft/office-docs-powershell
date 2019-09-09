@@ -52,7 +52,7 @@ All other policy properties will be left as previously assigned.
 ### Example 2
 ```
 powershell
-PS C:\> Get-CsTeamsMessagingPolicy | Set-CsTeamsMessagingPolicy -Identity StudentMessagingPolicy -AllowGiphy $false -AllowMemes $false
+PS C:\> Get-CsTeamsMessagingPolicy | Set-CsTeamsMessagingPolicy -AllowGiphy $false -AllowMemes $false
 ```
 
 In this example two different property values are configured for all teams messaging policies in the organization: AllowGiphy is set to false and AllowMemes is set to False.
